@@ -52,7 +52,7 @@ services:
             - zookeeper
 
     ztm_kafka_streams:
-        image: "maciejszymczyk/ztm_stream:1.0"
+        image: "maciejszymczyk/ztm_stream:1.1"
         environment:
           - APPLICATION_ID_CONFIG=awesome_overrided_ztm_stream_app_id
           - BOOTSTRAP_SERVERS_CONFIG=kafka:9092
